@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buku PMR</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .book {
+      text-align: center;
+    }
+    .book img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .book img:hover {
+      transform: scale(1.05);
+    }
+    .book a {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 6px 12px;
+      background: #e2e1e1;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .book a:hover {
+      background: #138496;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align:center; margin:20px 0;">Buku PMI</h2>
+    <h5 style="text-align:center; margin:20px 0;">Coming Soon</h5>
+  <div class="gallery">
+    <!-- Buku 1 -->
+    <!-- <div class="book">
+      <a href="https://drive.google.com/file/d/0B3TtyGzUC8ooNjBJT2RnT1hObkk/view?resourcekey=0-oNjPu6SIlBUQpO1qTe75AQ" target="_blank">
+        <img src="img/buku1.jpg" alt="Mengenal Gerakan PMR Mula-Madya-Wira">
+      </a> -->
+      <!-- <a href="dokumen/buku1.pdf" download="Mengenal Gerakan PMR Mula-Madya-Wira">Download</a> -->
+    </div>
+
+    <!-- Buku 2 -->
+    <!-- <div class="book">
+      <a href="https://drive.google.com/file/d/0B3TtyGzUC8oobUVVU2Q4VWMzN1U/view?resourcekey=0-yjo_QBDyzam5a7AmVQm61w" target="_blank">
+        <img src="img/buku2.jpg" alt="Pertolongan Pertama - PMR MULA">
+      </a> -->
+      <!-- <a href="dokumen/buku2.pdf" download="Ayo_Siaga_Bencana_Remaja_Madya.pdf">Download</a> -->
+    <!-- </div>
+
+    <div class="book">
+      <a href="https://drive.google.com/file/d/0B3TtyGzUC8ooX3hrUXRJWXZ3V1E/view?resourcekey=0-1CJoiCu-KwPQpPEl7bIx0Q" target="_blank">
+        <img src="img/buku3.jpg" alt="Pertolongan Pertama - PMR MADYA">
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://drive.google.com/file/d/0B3TtyGzUC8ooWVplQVg3WlFFSzQ/view?resourcekey=0-gpv0gYYTpO0PaaIT8cQBGA" target="_blank">
+        <img src="img/buku4.jpg" alt="Pertolongan Pertama - PMR WIRA">
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://drive.google.com/file/d/0B3TtyGzUC8ooYTRYUm5DOThTMTA/view?resourcekey=0-WYr2cgRR84c_fuQB5yRVTg" target="_blank">
+        <img src="img/buku5.jpg" alt="PMR Relawan Masa Depan">
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://drive.google.com/file/d/0B3TtyGzUC8ooYTRYUm5DOThTMTA/view?resourcekey=0-WYr2cgRR84c_fuQB5yRVTg" target="_blank">
+        <img src="img/buku5.jpg" alt="PMR Relawan Masa Depan">
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://drive.google.com/file/d/0B3TtyGzUC8ooaUk2WHJ4Y3phRUE/view?resourcekey=0-ToCpQFTUtEn7lxDT2JwrFw" target="_blank">
+        <img src="img/buku6.jpg" alt="Donor Darah">
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://drive.google.com/file/d/0B3TtyGzUC8ooejJQSlJRWDFja2M/view?resourcekey=0-Q7EBTSsWWdDbFjwjMs5qjw" target="_blank">
+        <img src="img/buku7.jpg" alt="Remaja Sehat Peduli Sesama">
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://drive.google.com/file/d/0B3TtyGzUC8ooc3JXenl3bUpDU1E/view?resourcekey=0-Ro72PUXsX4JYg62cl5RKbw" target="_blank">
+        <img src="img/buku8.jpg" alt="Pendidikan Remaja Sebaya">
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://drive.google.com/file/d/0B3TtyGzUC8ooOUp1T3I2NVFaQVk/view?resourcekey=0-A3LtL-jPZTMTMNiXZI2d6g" target="_blank">
+        <img src="img/buku9.jpg" alt="Ayo Siaga Bencana - PMR MULA">
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://drive.google.com/file/d/0B3TtyGzUC8ooYWp3S2RRSmJhSE0/view?resourcekey=0-kcTSWpHgq2KbqaJ53SsfQg" target="_blank">
+        <img src="img/buku10.jpg" alt="Ayo Siaga Bencana - PMR MADYA">
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="hhttps://drive.google.com/file/d/0B3TtyGzUC8oodDZfZ0tNTU4yc0k/view?resourcekey=0-evoGpTcqLS3joHzipKVa0A" target="_blank">
+        <img src="img/buku11.jpg" alt="Ayo Siaga Bencana - PMR WIRA">
+      </a>
+    </div> -->
+    <!-- Tambahkan buku lainnya sesuai kebutuhan -->
+  </div>
+
+</body>
+</html>
